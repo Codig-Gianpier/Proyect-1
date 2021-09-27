@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0px;
+ 
+    background-color: rgb(243, 242, 242);
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hola .oli{
+    background-color: rgb(3, 3, 3);
+    width: 1440;
+    height: 70px;
+    border: 1px solid rgb(107, 42, 107);
+   
+}
+nav .letras{
+    color: rgb(254, 253, 255);
+    width: 40px;
+   font-size: 25px;
+   display: inline-block;
+   margin-top: -10px;
+   text-align: center;
+   
+}
+.conteiner ul{
+    list-style-type: none;
+    margin-left: -45px ;
+    margin-top: 0px;
+}
+.conteiner ul li{
+    border-right: 1px solid rgba(92,89,89,0,0.41);
+   padding: 20px;
+    margin: 0px;
+    
+}
+.conteiner ul li:last-child{
+    border-right: none;
+   
+}
+
+.conteiner ul li a{
+    color:rgb(143, 139, 145);
+    font-size: 1.1rem;
+    padding: .9rem 1rem;
+    text-transform: lowercase;
+  margin-left: 60px;
+  text-decoration: none;
+    
+  
+}
+.conteiner ul li:hover{
+   
+    text-transform: lowercase;
+    overflow: hidden;
+    transition: all 500ms ease;
+    
+    background-color: blueviolet;
+    text-decoration: none;
+}
+.mover{
+    margin-left: 50px;
+}
+.letras .E{
+    padding:0px;
+    border: 3px solid white;
+   margin-right: 3px;
+   
+  
+}
+.letras .V{
+    padding:0px;
+    border: 3px solid white;
+   margin-right: 3px;
+   
+}
+.letras .A{
+    padding:0px;
+    border: 3px solid white;
+   margin-right: 3px;
+}
+.conteiner{
+   
+    width: 100%;
+    height:1500px;
+    margin:0px;
+   
+    background-color: rgb(235, 235, 235);
+   
+}
+.titu1{
+  
+    width: 880px;
+    margin-left:33px ;
+    margin-top: 26px;
+  
+}
+.titu1 .ani{
+    margin-top: -40px;
+    padding: 0px;
+
+}
+.titu1 a{
+    margin-left: 700px;
+   font-size: 15px;
+   color: blueviolet;
+}
+
+
+.titu2{
+   
+    width: 80px;   
+}
+.titu2 #cambia{
+    margin-left: 35px;
+    font-size: 13px;
+    position: relative;
+    
+}
+.titu3{
+    
+    width: 100px;
+    margin-left: 498px;
+}
+.titu3 #cambia2{
+        margin-left: 0px;
+        margin-top: -30px;
+       
+}
+
+.conen{
+    background-color: rgb(235, 235, 235);
+    width: 23%;
+    height: 1500px;
+    margin: 0px;
+    
+    float: left;
+    
+}
+.conteiner2{
+     
+        width: 77%;
+        height: 780px;
+        float: right;
+        
+       
+       
+}
+.caja1{
+    background-color: white;
+    width: 410px;
+    height: 110px;
+    padding-top: 0px;
+    margin-left:35px ;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    display: block;
+    
+}
+
+h3{
+    padding-top: 10px;
+    margin-left: 16px;
+    font-size: 0.73rem;
+    font-weight: bold;
+  
+    
+    
+}
+.caja1 p{
+    text-align:start;
+    margin-right: 10px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+
+.caja1 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    
+    color:  blueviolet;
+    
+
+}
+.caja2{
+    background-color: white;
+    width: 410px;
+    height: 110px;
+    padding-top: 0px ;
+    margin-top: 25px;
+    margin-left:35px ;
+    font-size: 10px;
+    font-weight: 900;
+    display: block;
+}
+.caja2 p{
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+#unico{
+    margin-top:-10px;
+    color: rgb(161, 158, 158);
+}
+.caja2 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+.caja3{
+    background-color: white;
+    width: 410px;
+    height: 95px;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-left:35px ;
+    font-size: 10px;
+    font-weight: 900;
+    display: block;
+}
+.caja3 p{
+    text-align: start;
+    margin-right: 30px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+.caja3 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+.caja4{
+    background-color: white;
+    width: 410px;
+    height: 125px;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-left:35px ;
+    font-size: 10px;
+    font-weight: 900;
+    display: block;
+}
+.caja4 p{
+    margin-top: 15px;
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+.caja4 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+
+
+.caja5{
+    background-color: white;
+    width: 410px;
+    height: 125px;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: -500px;
+    margin-left:490px ;
+   margin-bottom: 10px;
+    position: relative;
+    margin-right: 600px;
+    
+   
+}
+.caja5 p{
+    margin-top: 15px;
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 11px;
+}
+.caja5 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+.caja6{
+    background-color: white;
+    width: 410px;
+    height: 115px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left:490px ;
+   margin-bottom: 10px;
+   font-size: 10px;
+   font-weight: 900;
+    position: relative;
+    margin-right: 600px;
+    display: block;
+}
+.caja6 p{
+    margin-top: 15px;
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 13px;
+}
+.caja6 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+
+.caja7{
+    background-color: white;
+    width: 410px;
+    height: 110px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left:490px ;
+    font-size: 10px;
+    font-weight: 900;
+   margin-bottom: 10px;
+    position: relative;
+    margin-right: 600px;
+    display:block;
+}
+.caja7 p{
+    margin-top: 15px;
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 11px;
+}
+
+.caja7 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+.caja8{
+    background-color: white;
+    width: 410px;
+    height: 115px;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left:490px ;
+   margin-bottom: 10px;
+   font-size: 10px;
+    font-weight: 900;
+    position: relative;
+    margin-right: 600px;
+    display: block;
+}
+.caja8 p{
+    margin-top: 15px;
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+.caja8 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+.caja9{
+    background-color: white;
+   width: 410px;
+    height: 120px;
+    padding:0px;
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-left:490px ;
+   margin-bottom: 10px;
+    position: relative;
+    margin-right: 600px;
+    display: block;
+}
+.caja9 p{
+    margin-top: 15px;
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.caja9 .des a{
+    
+    margin-left: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    color: blueviolet;
+
+}
+#ok,#ok1{
+    color: rgb(197, 194, 194);
+}
